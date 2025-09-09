@@ -1,15 +1,15 @@
-Analyzing EEG Signals for Epilepsy Diagnosis
-Abstract
-This study investigates the use of various signal processing methods to analyze electroencephalography (EEG) signals for the diagnosis of epilepsy. The research models the brain as a system of coupled oscillators, where the reliability of the system is governed by a critical coupling strength, 
-epsilon_c, which is inversely proportional to the frequency distribution g(
-omega). By comparing different methods, the study identifies which approach is most effective for distinguishing between epileptogenic and non-epileptogenic states.
+# Analyzing EEG Signals for Epilepsy Diagnosis
 
-Methodology
-The research employed several signal processing techniques to analyze the EEG data. The primary focus was to analyze the relationship between the critical coupling strength (
-epsilon_c) and the frequency distribution (g(
-omega)), as well as to evaluate the classification accuracy of each method in identifying epileptogenicity.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://achintha9533.github.io/Pattern-Recognition/license.html)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 
-The following methods were used:
+# Abstract
+This study investigates the use of various signal processing methods to analyze electroencephalography (EEG) signals for the diagnosis of epilepsy. The research models the brain as a system of coupled oscillators, where the reliability of the system is governed by a critical coupling strength, ϵ 
+c, which is inversely proportional to the frequency distribution g(ω). By comparing different methods, the study identifies which approach is most effective for distinguishing between epileptogenic and non-epileptogenic states.
+
+# Methodology
+
+The research employed several signal processing techniques to analyze the EEG data:
 
 Hilbert Transform
 
@@ -23,51 +23,28 @@ Power Spectral Density (PSD)
 
 Autoregressive (AR) Models
 
-Key Findings
-A direct correlation was observed between the estimated g(
-omega) and the critical coupling strength 
-epsilon_c.
+The primary focus was to analyze the relationship between the critical coupling strength (ϵ c) and the frequency distribution (g(ω)), as well as to evaluate the classification accuracy of each method in identifying epileptogenicity.
 
-Method
+# Key Findings
 
-Frequency Distribution (g(
-omega))
+A direct correlation was observed between the estimated g(ω) and the critical coupling strength ϵ c .
 
-Critical Coupling Strength (
-epsilon_c)
+The FFT method demonstrated the highest frequency distribution (g(ω)=0.4898) and the lowest critical coupling strength (ϵ c = 1.3179).
 
-Classification Accuracy
+The AR model had the lowest g(ω) (0.0292) and the highest ϵ c (22.0116).
 
-FFT
+For classification accuracy, the FFT method was the most reliable, with an accuracy of 59.06%.
 
-0.4898
+The AR model was the least accurate, with only 32.75% accuracy.
 
-1.3179
+# Note: 
 
-59.06%
+The EMD and AR methods were evaluated using a reduced dataset due to high computational costs, which may have impacted their results and could potentially underestimate their true performance.
 
-AR
-
-0.0292
-
-22.0116
-
-32.75%
-
-The FFT method demonstrated the highest frequency distribution and the lowest critical coupling strength.
-
-The AR model had the lowest g(
-omega) and the highest 
-epsilon_c.
-
-For classification accuracy, the FFT method was the most reliable, while the AR model was the least accurate.
-
-Note: The EMD and AR methods were evaluated using a reduced dataset due to high computational costs, which may have impacted their results and could potentially underestimate their true performance.
-
-Conclusion
+# Conclusion
 The analysis demonstrates that different signal processing methods yield distinct results in the context of EEG signal analysis for epilepsy diagnosis. The Fast Fourier Transform (FFT) method proved to be the most reliable and accurate approach among those tested for this specific application.
 
-Author
-Name: Podimarakkala Gurunnanselage Kasun Achintha Perera
+# Author
+Podimarakkala Gurunnanselage Kasun Achintha Perera
+(Dated: July 20, 2025)
 
-Date: July 20, 2025
