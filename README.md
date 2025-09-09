@@ -1,9 +1,11 @@
 # Analyzing EEG Signals for Epilepsy Diagnosis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://achintha9533.github.io/Analyzing-EEG-signal-using-different-methods/license.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
 # Abstract
+
 This study investigates the use of various signal processing methods to analyze electroencephalography (EEG) signals for the diagnosis of epilepsy. The research models the brain as a system of coupled oscillators, where the reliability of the system is governed by a critical coupling strength, ϵ 
 c, which is inversely proportional to the frequency distribution g(ω). By comparing different methods, the study identifies which approach is most effective for distinguishing between epileptogenic and non-epileptogenic states.
 
